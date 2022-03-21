@@ -8,8 +8,8 @@ export class MonAn {
   hinhAnh = "";
   moTa = "";
   constructor() {}
-  tinhGiaKhuyenMai() {
+  tinhGiaKhuyenMai = function () {
     let giaKhuyenMai = this.giaMon - (this.giaMon * this.khuyenMai) / 100;
     return giaKhuyenMai;
-  }
+  };
 }
